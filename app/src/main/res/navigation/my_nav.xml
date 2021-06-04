@@ -48,7 +48,7 @@
     </dialog>
     <activity
         android:id="@+id/detailActivity"
-        android:name="com.example.modernfoodrecipesapp.ui.DetailActivity"
+        android:name="com.example.modernfoodrecipesapp.ui.details.DetailActivity"
         android:label="activity_detail"
         tools:layout="@layout/activity_detail">
 

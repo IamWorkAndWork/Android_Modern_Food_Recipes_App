@@ -16,7 +16,7 @@
         android:theme="@style/SplashScreenStyle"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ui.DetailActivity"
+            android:name=".ui.details.DetailActivity"
             android:label="Details"
             android:screenOrientation="portrait"
             android:theme="@style/DetailsActivityStyle"></activity>

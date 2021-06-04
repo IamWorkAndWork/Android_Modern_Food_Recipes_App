@@ -1,4 +1,4 @@
-package com.example.modernfoodrecipesapp.ui
+package com.example.modernfoodrecipesapp.ui.details
 
 import android.os.Bundle
 import android.util.Log
@@ -13,13 +13,12 @@ import com.example.foody.models.Result
 import com.example.modernfoodrecipesapp.R
 import com.example.modernfoodrecipesapp.data.database.entities.FavoritesEntity
 import com.example.modernfoodrecipesapp.databinding.ActivityDetailBinding
-import com.example.modernfoodrecipesapp.ui.fragments.PagerAdapter
+import com.example.modernfoodrecipesapp.ui.MainViewModel
 import com.example.modernfoodrecipesapp.ui.fragments.ingredients.IngredientsFragment
 import com.example.modernfoodrecipesapp.ui.fragments.instructions.InstructionsFragment
 import com.example.modernfoodrecipesapp.ui.fragments.overview.OverviewFragment
 import com.example.modernfoodrecipesapp.utils.Constants.Companion.RECIPE_RESULT_KEY
 import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
 
