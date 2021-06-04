@@ -33,7 +33,7 @@
             app:shimmer_recycler_layout="@layout/placeholder_row_layout" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+            android:id="@+id/recipes_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -45,8 +45,6 @@
             app:srcCompat="@drawable/ic_baseline_restaurant"
             app:tint="@color/white" />
 
-        <!--        readApiResponse="@{mainViewModel.recipesResponse}"-->
-        <!--        readDatabase="@{mainViewModel.readRecipes}"-->
         <ImageView
             android:id="@+id/error_imageview"
             readApiResponse="@{mainViewModel.recipesResponse}"
@@ -65,8 +63,8 @@
 
         <TextView
             android:id="@+id/textView"
-            readApiResponse2="@{mainViewModel.recipesResponse}"
-            readDatabase2="@{mainViewModel.readRecipes}"
+            readApiResponse="@{mainViewModel.recipesResponse}"
+            readDatabase="@{mainViewModel.readRecipes}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

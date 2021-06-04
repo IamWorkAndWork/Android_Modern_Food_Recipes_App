@@ -41,12 +41,6 @@ class RecipesAdapter : ListAdapter<Result, RecyclerView.ViewHolder>(diffItem()) 
             }
         }
 
-        init {
-            binding.rowCardView.setOnClickListener {
-
-            }
-        }
-
         fun bind(result: Result) {
             binding.result = result
             binding.executePendingBindings()

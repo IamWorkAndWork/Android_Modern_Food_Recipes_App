@@ -24,7 +24,8 @@ object DatabaseModule {
         @ApplicationContext context: Context
     ): RecipesDatabase {
         return Room.databaseBuilder(
-            context, RecipesDatabase::class.java,
+            context,
+            RecipesDatabase::class.java,
             Constants.DATABASE_NAME
         ).build()
     }
